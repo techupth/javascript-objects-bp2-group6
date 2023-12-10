@@ -1,6 +1,4 @@
 // Exercise #3 Debugging
-
-// Start coding here
 const employee = {
   name: "John Doe",
   age: 18,
@@ -15,15 +13,4 @@ const employee = {
 
 console.log("Employee Name: " + employee.name);
 console.log("Employee Age: " + employee.age);
-console.log(
-  "Employee Address: " +
-    employee.address.street +
-    ", " +
-    employee.address.city +
-    ", " +
-    employee.address.states +
-    ", " +
-    employee.address.country +
-    " " +
-    employee.address.postalCode
-);
+console.log("Employee Address: " + employee.address.street + ", " + employee.address.city + ", " + employee.address.states + ", " + employee.address.country + " " + employee.address.postalCode);
